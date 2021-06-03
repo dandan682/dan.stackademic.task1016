@@ -1,0 +1,93 @@
+html {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.header {
+    display: flex;
+    background-color: royalblue;
+    padding: 30px 35px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-title { 
+    color: white;
+    font-size:40px;
+}
+
+.search {
+    width: 15rem;
+    height: 28px;
+    font-style: italic;
+    outline: none;
+}
+
+.main {
+    border: 1px solid gainsboro;
+    margin: 10px 15px 0 15px;
+    padding: 5px 5px 20px 35px;
+}
+
+.item-input {
+    line-height: 35px;
+    width: 70%;
+    margin-bottom: 3px;
+    font-size: 17px;
+    outline: none;
+}
+
+.items {
+//    border: 1px solid gray;
+}
+
+.item {
+    width: 70%;
+    height: 25px;
+    font-size: 17px;
+    color: gray;
+    border: 1px solid gainsboro;
+    padding-left: 0.3rem;
+    margin: 8px;
+    outline: none;
+}
+
+.add { 
+    height: 29px;
+    background-color: gold;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.button {
+    color: white;
+    height: 20px;
+    font-size: 10px;
+    border: 0;
+    margin: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: limegreen;
+} 
+
+.delete {
+    background-color: red;
+} 
+
+@media screen and (max-width: 230px) {
+    .header-title {
+        font-size: 24px;
+    }
+
+    .search {
+        width: 90%;
+        font-size: 13px;
+    }
+}

@@ -31,21 +31,21 @@ html {
 .main {
     border: 1px solid gainsboro;
     margin: 10px 15px 0 15px;
-    padding: 5px 5px 20px 35px;
+    padding: 5px 5px 20px 25px;
 }
 
 .item-input {
     line-height: 35px;
     width: 70%;
     margin-bottom: 30px;
-    font-size: 17px;
+    font-size: 18px;
     border: 1px solid gray;
     padding-left: 0.3rem;
     outline: none;
 }
 
 .item {
-    width: 70%;
+    width: 57%;
     height: 25px;
     font-size: 17px;
     color: gray;
@@ -64,8 +64,8 @@ html {
 
 .button {
     color: white;
-    height: 20px;
-    font-size: 10px;
+    height: 22px;
+    font-size: 14px;
     border: 0;
     margin: 3px;
     vertical-align: middle;

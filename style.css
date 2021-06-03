@@ -38,11 +38,9 @@ html {
     width: 70%;
     margin-bottom: 3px;
     font-size: 17px;
+    border: 1px solid gray;
+    padding-left: 0.3rem;
     outline: none;
-}
-
-.items {
-//    border: 1px solid gray;
 }
 
 .item {

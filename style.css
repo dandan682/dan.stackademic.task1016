@@ -23,6 +23,7 @@ html {
 .search {
     width: 15rem;
     height: 28px;
+    font-size: 16px;
     font-style: italic;
     outline: none;
 }
@@ -36,7 +37,7 @@ html {
 .item-input {
     line-height: 35px;
     width: 70%;
-    margin-bottom: 3px;
+    margin-bottom: 30px;
     font-size: 17px;
     border: 1px solid gray;
     padding-left: 0.3rem;
